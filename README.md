@@ -18,15 +18,14 @@ Step 3: Testing whether a directed graph is 2-vertex strongly biconnected or not
 
 ## Testing Results
 
-| Graph Description                                | Type       | Nodes     | Edges     | is2Connected -Time- | isStronglyConnected -Time- | isStronglyBiconnected -Time- | is2VertexStronglyBiconnected -Time- |
-| ------------------------------------------------ | ---------- | --------- | --------- | ------------------- | -------------------------- | ---------------------------- | ----------------------------------- |
-| Amazon product network                           | Undirected | 334,863   | 925,872   | true -30.381ms-     | false                      | false                        | false                               |
-| Youtube online social network                    | Undirected | 1,134,890 | 2,987,624 | true -21.978ms-     | false                      | false                        | false                               |
-| Email communication network from Enron           | Undirected | 36,692    | 183,831   | false -34.616ms-    | false                      | false                        | false                               |
-| Arxiv High Energy Physics paper citation network | Directed   | 34,546    | 421,578   | false               | false -25.081ms-           | false -16.142ms-             | false -22.726ms-                    |
-| Email network from a EU research institution     | Directed   | 265,214   | 420,045   | false               | false -8.643ms-            | false -2.157ms-              | false -5.4ms-                       |
-| Wikipedia who-votes-on-whom network              | Directed   | 7,115     | 03,689    | false               | false -13.996ms-           | false - 8.589ms-             | false -12.504ms-                    |
-
+| Graph Description                                | Type       | Nodes     | Edges     | is2VertexStronglyBiconnected | 
+| ------------------------------------------------ | ---------- | --------- | --------- | ---------------------------- |
+| musae-github                                     | Undirected | 37,700    | 289,003   |	Flase	       	       |
+| musae-facebook                                   | Undirected | 22,470    | 171,002   |	Fasle		       |	
+| gemsec-Deezer                                    | Undirected | 143,884   | 846,915   |	True		       |
+| congress-Twitter                                 | Directed   | 475       | 13,289    |	True		       |
+| ego-Facebook                                     | Directed   | 4,039     | 88,234    |	True		       |			       
+| ego-Gplus                                        | Directed   | 107,614   | 13,673,453|	False		       | 
 
 ## Contributors
 
