@@ -1,5 +1,5 @@
 <?php
-
+//Yousef + Hussien + Hasan
 class JensSchmidt {
     public $graph;  public $num;  public $stack;  public $points;  public $low;  public $onStack;  public $components;
 
@@ -15,7 +15,7 @@ class JensSchmidt {
         }
         return $this->components;
     }
-
+//Maher + yazan + Ali + Ahmad
     public function strongC($v) {
         $this->points[$v] = $this->num;  $this->low[$v] = $this->num;
         array_push($this->stack, $v);
