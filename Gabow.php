@@ -1,5 +1,5 @@
 <?php
-
+//Maya + Leen + Sara each took an independent task
 class Gabow {
     public $graph;  public $num;  public $stack;  public $low;  public $components;  public $numMap;  public $visited;
 
